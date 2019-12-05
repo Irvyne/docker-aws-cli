@@ -7,6 +7,7 @@ RUN if [ "$INETPSA" = "true" ] ; then \
     ; fi
 
 RUN apk -v --update add \
+        bash \
         groff \
         jq \
         less \
