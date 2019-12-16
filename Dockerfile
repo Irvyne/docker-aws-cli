@@ -8,6 +8,7 @@ RUN if [ "$INETPSA" = "true" ] ; then \
 
 RUN apk -v --update add \
         bash \
+        curl \
         groff \
         jq \
         less \
